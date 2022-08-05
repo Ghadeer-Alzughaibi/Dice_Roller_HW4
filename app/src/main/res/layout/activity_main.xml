@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
+    android:background="@color/white"
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:paddingHorizontal="200px"
@@ -19,25 +19,12 @@
         android:layout_marginBottom="20px"/>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_dice"
         android:layout_width="150dp"
         android:layout_height="90dp"
-        app:srcCompat="@drawable/_1aqmk2i9nl"
+        app:srcCompat="@drawable/dice_1"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="50dp"/>
-
-    <TextView
-        android:id="@+id/txt_number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:text="@string/number_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="115dp"/>
 
     <Button android:id="@+id/btn_roll"
         android:layout_width="wrap_content"
